@@ -1,0 +1,3 @@
+/ -topics = ["coffee", "tea"]
+/ -Client.filter(:track => topics.join(",")) do |object|
+/   = object.text if object.is_a?(Twitter::Tweet)
