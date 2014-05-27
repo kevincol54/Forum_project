@@ -78,4 +78,9 @@
                           = time_ago_in_words(dis.created_at)
                           •  
                           =link_to "Read More", discussion_path(dis)
-= render 'discussions/tweets'
+                          
+            .twitterstuff
+              %a.twitter-timeline{"data-widget-id" => "467794738922278912", :href => "https://twitter.com/search?q=%23tech"} Tweets about "#tech"
+              :javascript
+                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+

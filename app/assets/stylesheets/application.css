@@ -20,8 +20,17 @@
 
 @import url('http://fonts.googleapis.com/css?family=Oswald:300,400:latin,latin-ext');
 
+.commentsfooter{
+  border: 1px solid black;
+  height: 70px;
+  width: 100%;
+}
 
-
+.twitterstuff{
+  border: 1px solid black;
+  position: absolute;
+  right: 100px;
+}
 
 .commentname{
   color: #1E31A8;
