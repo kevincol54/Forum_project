@@ -25,10 +25,7 @@ var when_page_is_ready = function(){
   $("div.commentsheader").click(function() {
     $("div.commentslist").toggle();
   })  
-  // $("div.commentsheader").click(function() {  
-  //   $("div.commentslist").slideUp('slow');
-  // })
-  
+   
   if (annyang) {
     var commands = {
         'Show Comments': function() {
