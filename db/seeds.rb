@@ -146,7 +146,7 @@ Discussion.create!(
 
 Discussion.create!(
   user_id: '5',
-  title: 'Nothing is better then when Music & Tech Come together'
+  title: 'Nothing is better then when Music & Tech Come together',
   content: 'Who agrees with me?',
   discussion_type: 'Music & Tech'
   )

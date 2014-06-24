@@ -1,12 +1,12 @@
 
 
-#About
+==About
 This app takes two of my biggest passions, Music and Tech, and puts them together in a forum that is strictly for things with these two topics. It allows users to create discussion and comment on them. The comments are all displayed using AJAX. I implemented voice recognition into my app. You can 'Show' or 'Hide' comments simply by saying "show comments" or "hide comments". I have twitter feeds on each forum section's main page to show you the latest tweets with hashtags about music, tech and music tech. So go ahead, log in, and start chatting about all things music and tech!
 
 
-***
 
-#Installation
+
+==Installation
 
 * Install Ruby V2.1.1
 
